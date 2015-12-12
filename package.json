@@ -17,9 +17,6 @@
     "ejs-locals": "^1.0.2",
     "express": "^4.11.2",
     "express-session": "^1.10.4"
-
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
