@@ -1,18 +1,116 @@
-{
-  "additionalFeatures": "Contour Display, Near Field Communications (NFC),...",
-  "android": {
-    "os": "Android 2.3",
-    "ui": "Android"
+[
+  {
+    "id": "Tenrox-R1_1235",
+    "type": "Build",
+    "owner":"",
+    "timeStarted":"",
+    "state":"Pending",
+    "metrics":{
+      "status":"Pending"
+    },
+    "build":{
+      "status":"Pending"
+    },
+    "unitTest":{
+      "status":"Pending"
+    },
+    "functionalTest":{
+      "status":"Pending"
+    }
   },
-
-  "images": [
-    "img/phones/nexus-s.0.jpg",
-    "img/phones/nexus-s.1.jpg",
-    "img/phones/nexus-s.2.jpg",
-    "img/phones/nexus-s.3.jpg"
-  ],
-  "storage": {
-    "flash": "16384MB",
-    "ram": "512MB"
+  {
+    "id": "432462",
+    "type": "FireWall",
+    "owner":"jtuck",
+    "timeStarted":"4/18/2014 12:12pm",
+    "state":"Running",
+    "metrics":{
+      "status":"Running"
+    },
+    "build":{
+      "status":"Pending"
+    },
+    "unitTest":{
+      "status":"Pending"
+    },
+    "functionalTest":{
+      "status":"Pending"
+    }
+  },
+  {
+    "id": "432461",
+    "type": "FireWall",
+    "owner":"samy",
+    "timeStarted":"4/18/2014 10:53am",
+    "state":"Rejected",
+    "metrics":{
+      "status":"Rejected"
+    },
+    "build":{
+      "status":"Done"
+    },
+    "unitTest":{
+      "status":"Done"
+    },
+    "functionalTest":{
+      "status":"Done"
+    }
+  },
+  {
+    "id": "Tenrox-R1_1234",
+    "type": "Build",
+    "owner":"",
+    "timeStarted":"4/17/2014 9:42am",
+    "state":"Complete",
+    "metrics":{
+      "status":"Done"
+    },
+    "build":{
+      "status":"Done"
+    },
+    "unitTest":{
+      "status":"Done"
+    },
+    "functionalTest":{
+      "status":"Done"
+    }
+  },
+  {
+    "id": "432460",
+    "type": "FireWall",
+    "owner":"samy",
+    "timeStarted":"4/17/2014 7:51am",
+    "state":"Rejected",
+    "metrics":{
+      "status":"Rejected"
+    },
+    "build":{
+      "status":"Pending"
+    },
+    "unitTest":{
+      "status":"Pending"
+    },
+    "functionalTest":{
+      "status":"Pending"
+    }
+  },
+  {
+    "id": "432459",
+    "type": "FireWall",
+    "owner":"samy",
+    "timeStarted":"4/16/2014 6:43am",
+    "state":"Accepted",
+    "metrics":{
+      "status":"Done"
+    },
+    "build":{
+      "status":"Done"
+    },
+    "unitTest":{
+      "status":"Done"
+    },
+    "functionalTest":{
+      "status":"Done"
+    }
   }
-}
+]
