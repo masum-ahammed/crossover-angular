@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
     
-    var app = angular.module('br-reg', [
+    var app = angular.module('app', [
         // Angular modules 
         'ngAnimate',        // animations
         'ngRoute',          // routing
@@ -16,7 +16,7 @@
         function($routeProvider) {
             $routeProvider.
                 when('/', {
-                    templateUrl: 'app/registration/registration.html'
+                    templateUrl: 'app/dashboard/registration.html'
 
                 }).
 
@@ -29,6 +29,6 @@
             // Include $route to kick start the router.
         }]);
     angular.element(document).ready(function() {
-        angular.bootstrap(document, ["br-reg"]);
+        angular.bootstrap(document, ["app"]);
     });
 })();

@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
     var controllerId = 'registration';
-    angular.module('br-reg').controller(controllerId, [ registration]);
+    angular.module('app').controller(controllerId, [ registration]);
 
     function registration( ) {
 
