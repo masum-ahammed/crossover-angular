@@ -4,10 +4,15 @@
 (function (angular) {
     'use strict';
 
-    var app = angular.module('app');
-    var controllerId = "dashboardController";
-    app.controller(controllerId, [ dashboardController]);
-    function dashboardController(){
+    angular.module('app')
+    .controller('dashboardController',dashboardController);
 
+    dashboardController.$inject = ['dashboardService'];
+
+    function dashboardController(dashboardService){
+        dashboardService.getData().then(function(data){
+            console.log(data);
+
+        });
     }
 })(window.angular);
