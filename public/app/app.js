@@ -16,7 +16,7 @@
         function($routeProvider) {
             $routeProvider.
                 when('/', {
-                    templateUrl: 'app/dashboard/registration.html'
+                    templateUrl: 'app/dashboard/dashboard.html'
 
                 }).
 
