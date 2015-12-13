@@ -36,9 +36,7 @@
 
     }
 
-    function getBorderClass(item){
 
-    }
     function getStyleInfo(item){
         var isBuild = item.type == 'Build';
         var imgName = isBuild ? 'pc' : 'wall';

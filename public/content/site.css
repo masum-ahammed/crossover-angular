@@ -41,7 +41,28 @@
     background-color: #BE0712;
     border:#CBCBCC 2px solid;
 }
+.box-blue{
+    background-color: #D8D8D8;
+    border:#CBCBCC 2px solid;
+    position: relative;
+}
 
+.box-blue > div{
+    position: absolute;
+    background-color: #5E9CD3;
+    min-height: 26px;
+    min-width: 25px;
+}
+
+.box-green{
+    background-color: #548039;
+    border:#CBCBCC 2px solid;
+}
+
+.box-gray{
+    background-color: #D8D8D8;
+    border:#CBCBCC 2px solid;
+}
 .red-border{
     border:#BE0712 2px solid;
 }

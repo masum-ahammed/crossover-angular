@@ -25,11 +25,27 @@
 
     function Controller() {
         var vm = this;
-       console.log(vm.status)
-
+       vm.boxClass = getStyleInfo(vm.status);
 
     }
 
+    function getStyleInfo(status){
+
+        if( status === 'Done'){
+            return 'box-green';
+        }
+        else if( status === 'Running'){
+            return 'box-blue';
+        }
+        else if( status === 'Error' || status == 'Rejected'){
+            return 'box-red';
+
+        }
+        else if( status === 'Pending'){
+            return 'box-gray';
+
+        }
+    }
 
 
 })();
