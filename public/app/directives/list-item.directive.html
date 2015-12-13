@@ -1,5 +1,5 @@
-﻿<div class="row table-row">
-    <div class="col-md-2 table-cell"><div><img src="content/images/pc-sm-gray.png" alt="pc" />{{vm.item.id}}</div></div>
+﻿<div class="row table-row" ng-class="vm.borderClass">
+    <div class="col-md-2 table-cell" ><div><img src="{{vm.imageUrl}}" alt="pc" />{{vm.item.id}}</div></div>
     <div class="col-md-1 table-cell"><div>{{vm.item.owner}}</div></div>
     <div class="col-md-3 table-cell"><div>{{vm.item.timeStarted}}</div></div>
     <div class="col-md-1 table-cell"><div>{{vm.item.state}}</div></div>

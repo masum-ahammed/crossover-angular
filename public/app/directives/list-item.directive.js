@@ -26,11 +26,48 @@
     function Controller() {
         var vm = this;
         vm.item = vm.ngModel;
-        vm.isImageShow = vm.item.type == 'Build';
-        //console.log(vm.item.type);
+
+        var styleInfo = getStyleInfo(vm.item);
+        vm.imageUrl = styleInfo.imageUrl;
+        vm.borderClass = styleInfo.borderClass;
+       // vm.borderClass = getBorderClass.call(vm.item);
+
+
 
     }
 
+    function getBorderClass(item){
+
+    }
+    function getStyleInfo(item){
+        var isBuild = item.type == 'Build';
+        var imgName = isBuild ? 'pc' : 'wall';
+        var styleInfo ={
+            imageUrl : 'content/images/'+imgName+'-sm-gray.png',
+            borderClass : 'gray-border'
+        };
+        if( item.state === 'Pending'){
+            return styleInfo
+        }
+        else if( item.state === 'Running'){
+            styleInfo.imageUrl= 'content/images/'+imgName+'-sm-blue.png';
+            styleInfo.borderClass =  'blue-border';
+            return styleInfo;
+
+        }
+        else if(item.state === 'Complete' || item.state === 'Accepted'){
+
+            styleInfo.imageUrl= 'content/images/'+imgName+'-sm-green.png';
+            styleInfo.borderClass =  'green-border';
+            return styleInfo;
+        }
+        else if(item.state === 'Rejected'){
+
+            styleInfo.imageUrl= 'content/images/'+imgName+'-sm-red.png';
+            styleInfo.borderClass =  'red-border';
+            return styleInfo;
+        }
+    }
 
 
 })();

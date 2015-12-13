@@ -4,7 +4,7 @@
 }
 
 .table-row{
-    border:#CBCBCC 2px solid;
+
    margin-bottom: 10px;
     height:38px;
     /*padding: 5px;*/
@@ -40,4 +40,18 @@
 .box-red{
     background-color: #BE0712;
     border:#CBCBCC 2px solid;
+}
+
+.red-border{
+    border:#BE0712 2px solid;
+}
+.green-border{
+    border:#548039 2px solid;
+}
+.gray-border{
+    border:#CBCBCC 2px solid;
+}
+
+.blue-border{
+    border:#5E9CD3 2px solid;
 }
