@@ -33,7 +33,7 @@
             vm.borderClass = styleInfo.borderClass;
             // vm.borderClass = getBorderClass.call(vm.item);
             vm.doCollapse = function(){
-                clicked = true;
+
                 vm.isCollapsed = !vm.isCollapsed ;
                 $rootScope.$broadcast('db-Collapse', {itemId:vm.item.id,isCollapse:true});
             }
