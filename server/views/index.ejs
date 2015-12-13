@@ -26,7 +26,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+    <link href="styles/site.css" rel="stylesheet" />
 </head>
 <body>
 <div ng-view>
@@ -51,8 +51,9 @@
 
 
 <!-- app -->
-<script src="app/dashboard/dashboardService.js"></script>
-<script src="app/dashboard/dashboardController.js"></script>
+<script src="app/services/dashboard.service.js"></script>
+<script src="app/directives/list-item.directive.js"></script>
+<script src="app/dashboard/dashboard.controller.js"></script>
 
 <script>
 

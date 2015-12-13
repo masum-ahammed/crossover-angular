@@ -10,8 +10,10 @@
     dashboardController.$inject = ['dashboardService'];
 
     function dashboardController(dashboardService){
+        var vm = this;
+        vm.list =[];
         dashboardService.getData().then(function(data){
-            console.log(data);
+            vm.list = data;
 
         });
     }

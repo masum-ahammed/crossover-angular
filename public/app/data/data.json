@@ -2,8 +2,8 @@
   {
     "id": "Tenrox-R1_1235",
     "type": "Build",
-    "owner":"",
-    "timeStarted":"",
+    "owner":" ",
+    "timeStarted":" ",
     "state":"Pending",
     "metrics":{
       "status":"Pending"
