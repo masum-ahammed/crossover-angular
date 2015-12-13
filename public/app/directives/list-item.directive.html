@@ -1,13 +1,23 @@
-﻿<div uib-collapse="!vm.isCollapsed" class="row table-row" ng-click="vm.doCollapse()" ng-class="vm.borderClass">
+﻿<div class="row table-row" ng-click="vm.doCollapse()" ng-class="vm.borderClass">
     <div class="col-md-2 table-cell" ><div><img src="{{vm.imageUrl}}" alt="pc" />{{vm.item.id}}</div></div>
     <div class="col-md-1 table-cell"><div>{{vm.item.owner}}</div></div>
     <div class="col-md-3 table-cell"><div>{{vm.item.timeStarted}}</div></div>
     <div class="col-md-1 table-cell"><div>{{vm.item.state}}</div></div>
-    <div class="col-md-1 table-cell"> <db-ractangle-box status="vm.item.metrics.status"></db-ractangle-box></div>
-    <div class="col-md-1 table-cell"> <db-ractangle-box status="vm.item.build.status"></db-ractangle-box></div>
-    <div class="col-md-1 table-cell"> <db-ractangle-box status="vm.item.unitTest.status"></db-ractangle-box></div>
-    <div class="col-md-2  table-cell"> <db-ractangle-box status="vm.item.functionalTest.status"></db-ractangle-box></div>
-</div>
-<div uib-collapse="vm.isCollapsed" ng-click="vm.doCollapse()" class="row table-row" ng-class="vm.borderClass">
-    <div >Some content</div>
+    <div class="col-md-1 table-cell" ng-show="vm.isCollapsed"> <db-ractangle-box status="vm.item.metrics.status"></db-ractangle-box></div>
+    <div class="col-md-1 table-cell" ng-show="vm.isCollapsed"> <db-ractangle-box status="vm.item.build.status"></db-ractangle-box></div>
+    <div class="col-md-1 table-cell" ng-show="vm.isCollapsed"> <db-ractangle-box status="vm.item.unitTest.status"></db-ractangle-box></div>
+    <div class="col-md-2  table-cell" ng-show="vm.isCollapsed"> <db-ractangle-box status="vm.item.functionalTest.status"></db-ractangle-box></div>
+    <div class="col-md-12" ng-show="!vm.isCollapsed" ng-click="vm.doCollapse()" >
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <db-metrics ng-model="vm.item.metrics"></db-metrics>
+                    <db-metrics ng-model="vm.item.metrics"></db-metrics>
+                    <db-metrics ng-model="vm.item.metrics"></db-metrics>
+                    <db-metrics ng-model="vm.item.metrics"></db-metrics>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 </div>
