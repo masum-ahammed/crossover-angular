@@ -1,0 +1,43 @@
+
+.container-fluid{
+    background-color: #FAFCFD;
+}
+
+.table-row{
+    border:#CBCBCC 2px solid;
+   margin-bottom: 10px;
+    height:38px;
+    /*padding: 5px;*/
+}
+.table-cell, .table-head{
+    display: table-cell;
+    text-align: center;
+
+}
+.table-cell > div{
+    display: inline-block;
+    padding-top: 4px;
+}
+.table-cell > div > img{
+    display: inline-block;
+    padding-right: 15px;
+}
+.table-row > .table-cell:first-child{
+    text-align: left;
+    padding-left:5px;
+}
+.table-head{
+    font-weight:bold;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.box{
+    display: inline-block;
+    min-width: 45px;
+    min-height: 30px;
+    margin-top:2px;
+}
+.box-red{
+    background-color: #BE0712;
+    border:#CBCBCC 2px solid;
+}

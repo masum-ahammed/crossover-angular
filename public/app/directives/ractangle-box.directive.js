@@ -4,15 +4,15 @@
 (function () {
     angular
         .module('app')
-        .directive('dbListItem', dbListItem);
+        .directive('dbRactangleBox', dbRactangleBox);
 
-    function dbListItem() {
+    function dbRactangleBox() {
         var directive = {
             restrict: 'EA',
 
-            templateUrl: 'app/directives/list-item.directive.html',
+            templateUrl: 'app/directives/ractangle-box.directive.html',
             scope: {
-                ngModel: '='
+                status: '='
             },
             controller: Controller,
             controllerAs: 'vm',
@@ -25,9 +25,8 @@
 
     function Controller() {
         var vm = this;
-        vm.item = vm.ngModel;
-        vm.isImageShow = vm.item.type == 'Build';
-        //console.log(vm.item.type);
+       console.log(vm.status)
+
 
     }
 
