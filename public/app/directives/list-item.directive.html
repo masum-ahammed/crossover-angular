@@ -1,4 +1,4 @@
-﻿<div class="row table-row" ng-class="vm.borderClass">
+﻿<div uib-collapse="!vm.isCollapsed" class="row table-row" ng-click="vm.doCollapse()" ng-class="vm.borderClass">
     <div class="col-md-2 table-cell" ><div><img src="{{vm.imageUrl}}" alt="pc" />{{vm.item.id}}</div></div>
     <div class="col-md-1 table-cell"><div>{{vm.item.owner}}</div></div>
     <div class="col-md-3 table-cell"><div>{{vm.item.timeStarted}}</div></div>
@@ -7,4 +7,7 @@
     <div class="col-md-1 table-cell"> <db-ractangle-box status="vm.item.build.status"></db-ractangle-box></div>
     <div class="col-md-1 table-cell"> <db-ractangle-box status="vm.item.unitTest.status"></db-ractangle-box></div>
     <div class="col-md-2  table-cell"> <db-ractangle-box status="vm.item.functionalTest.status"></db-ractangle-box></div>
+</div>
+<div uib-collapse="vm.isCollapsed" ng-click="vm.doCollapse()" class="row table-row" ng-class="vm.borderClass">
+    <div >Some content</div>
 </div>
