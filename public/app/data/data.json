@@ -29,9 +29,16 @@
       "status":"Pending"
     },
     "build":{
+
       "status":"Pending"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Pending"
     },
     "functionalTest":{
@@ -71,6 +78,12 @@
       "status":"Pending"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Pending"
     },
     "functionalTest":{
@@ -110,6 +123,12 @@
       "status":"Done"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Done"
     },
     "functionalTest":{
@@ -149,6 +168,12 @@
       "status":"Done"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Done"
     },
     "functionalTest":{
@@ -188,6 +213,12 @@
       "status":"Pending"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Pending"
     },
     "functionalTest":{
@@ -227,6 +258,12 @@
       "status":"Done"
     },
     "unitTest":{
+      "pie":{
+        "green":142,
+        "red":10
+      },
+      "testPassed":73,
+      "codeCovered":76,
       "status":"Done"
     },
     "functionalTest":{
