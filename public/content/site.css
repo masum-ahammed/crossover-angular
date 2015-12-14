@@ -104,20 +104,63 @@
 }
 
 .detail-box h4{
-    margin: 10px 5px;
+    margin: 5px 5px;
     font-weight: bold;
 }
 
+
 .arrow{
-    position: relative;
-}
-.arrow-up:before {
-    position: absolute;
-  
-    top: 0;
-    left: 10px;
-    content: "\u2800";
-}
-.arrow-up{
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    z-index: 1;
+    height:47px;
 
 }
+
+.arrow:before
+{
+    vertical-align: middle;
+    color: #353535;
+
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: -2px;
+
+
+}
+
+.arrow-up:before{
+    position: absolute;
+    left: -7px;
+    top: -14px;
+    content: "\e29f";
+    font-size: 54px;
+    color: #548039;
+}
+.arrow-up{
+    color:#fff;
+}
+.in{
+    position: relative;
+    z-index: 2;
+}
+
+.in > span{
+    position: absolute;
+    top: 14px;
+    left: 28px;
+
+}
+
+.padding-left-zero{
+    padding-left: 0px;
+}
+
+
+

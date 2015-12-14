@@ -8,19 +8,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Pending"
     },
@@ -43,19 +47,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Running"
     },
@@ -78,19 +86,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Rejected"
     },
@@ -113,19 +125,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Done"
     },
@@ -148,19 +164,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Rejected"
     },
@@ -183,19 +203,23 @@
     "metrics":{
       "test":{
         "value":64,
-        "arrowType":"up"
+        "arrowType":"up",
+        "label":"Test"
       },
       "maintainability":{
         "value":53,
-        "arrowType":"down"
+        "arrowType":"down",
+        "label":"Maintainability"
       },
       "security":{
         "value":64,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Security"
       },
       "workmanship":{
         "value":72,
-        "arrowType":"right"
+        "arrowType":"right",
+        "label":"Workmanship"
       },
       "status":"Done"
     },
