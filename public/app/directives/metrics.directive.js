@@ -22,11 +22,18 @@
         };
         return directive;
 
-        Controller.$inject = ['$scope','$rootScope'];
-        function Controller($scope,$rootScope) {
+        Controller.$inject = ['$scope','utilService'];
+        function Controller($scope,utilService) {
             var vm = this;
-            vm.item = vm.ngModel;
 
+            var styleInfo = utilService.getStyleByStatus(vm.ngModel.status);
+
+            vm.borderClass = styleInfo.borderClassName;
+            vm.color = styleInfo.color;
+            vm.test = vm.ngModel.test;
+            vm.maintainability = vm.ngModel.maintainability;
+            vm.security = vm.ngModel.security;
+            vm.workmanship = vm.ngModel.workmanship;
 
 
         }

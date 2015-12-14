@@ -76,3 +76,48 @@
 .blue-border{
     border:#5E9CD3 2px solid;
 }
+
+.green{
+    color: #548039;
+
+}
+
+.gray{
+    color: #D8D8D8;
+}
+
+.red{
+    color:#BE0712;
+}
+.blue{
+    color:#5E9CD3;
+}
+.detail-box{
+    min-height:150px;
+    min-width: 40px;
+
+    display:inline-block;
+
+    margin: 20px 10px ;
+    width: 185px;
+    height:170px;
+}
+
+.detail-box h4{
+    margin: 10px 5px;
+    font-weight: bold;
+}
+
+.arrow{
+    position: relative;
+}
+.arrow-up:before {
+    position: absolute;
+  
+    top: 0;
+    left: 10px;
+    content: "\u2800";
+}
+.arrow-up{
+
+}
