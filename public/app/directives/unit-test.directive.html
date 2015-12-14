@@ -7,16 +7,14 @@
                 <db-pie-chart ng-model="vm.pie" parcent="{{vm.testPassed}}" class="pie-chart"></db-pie-chart>
             </div>
             <div class="col-md-6 padding-left-zero">
-
+                <db-test-passed percent="{{vm.testPassed}}" color="green"></db-test-passed>
             </div>
         </div>
         <div clas="row">
-            <div class="col-md-6 padding-left-zero">
-
+            <div class="col-md-12 padding-left-zero">
+                <db-code-covered percent="{{vm.testPassed}}" color="green" ></db-code-covered>
             </div>
-            <div class="col-md-6 padding-left-zero">
 
-            </div>
         </div>
 
     </div>
