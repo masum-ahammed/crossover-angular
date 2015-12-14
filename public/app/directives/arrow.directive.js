@@ -26,6 +26,7 @@
         function Controller($scope,$rootScope) {
             var vm = this;
             vm.item = vm.ngModel;
+            vm.arrowClass = 'arrow-'+vm.item.arrowType;
 
 
 
